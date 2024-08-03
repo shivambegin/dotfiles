@@ -4,8 +4,8 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
--- config.color_scheme = "Catppuccin Mocha"
-config.color_scheme = "Rosé Pine (Gogh)"
+config.color_scheme = "Catppuccin Mocha"
+-- config.color_scheme = "Rosé Pine (Gogh)"
 -- config.color_scheme = "Poimandres"
 
 config.color_schemes = {
@@ -13,7 +13,7 @@ config.color_schemes = {
 		background = "#11111B", -- to match neovim ayu theme
 	},
 }
-local opacity = 0.9
+local opacity = 1.0
 
 --fonts
 
