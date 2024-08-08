@@ -92,7 +92,7 @@ function nvims() {
   NVIM_APPNAME=$config nvim $@
 }
 
-bindkey -s ^a "nvims\n"
+bindkey -s ^b "nvims\n"
 alias todo="dooit"
 alias art="cbonsai -l --seed=$(date +%s)"
 alias timer="tomato"
