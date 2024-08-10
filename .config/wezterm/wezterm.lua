@@ -13,7 +13,7 @@ config.color_schemes = {
 		background = "#11111B", -- to match neovim ayu theme
 	},
 }
-local opacity = 0.95
+local opacity = 0.97
 
 --fonts
 
