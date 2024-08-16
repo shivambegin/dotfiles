@@ -18,6 +18,7 @@ local opacity = 1.00
 --fonts
 
 config.font = wezterm.font_with_fallback({
+	{ family = "Hasklug Nerd Font Mono", weight = "Medium" },
 	-- { family = "FiraCode Nerd Font Mono" },
 	-- { family = "Maple Mono" },
 	-- { family = "Iosevkaterm Nerd Font" },
@@ -28,8 +29,9 @@ config.font = wezterm.font_with_fallback({
 	{ family = "Symbols Nerd Font Mono" },
 })
 
--- config.line_height = 1.3
 config.font_size = 18
+config.cell_width = 0.9
+config.line_height = 1.2
 config.term = "wezterm"
 config.underline_position = -5
 config.window_close_confirmation = "NeverPrompt"
