@@ -47,13 +47,6 @@ config.adjust_window_size_when_changing_font_size = false
 config.window_decorations = "RESIZE"
 config.disable_default_key_bindings = false
 
--- config.window_padding = {
--- 	left = 10,
--- 	right = 10,
--- 	top = 10,
--- 	bottom = 0,
--- }
-
 config.window_padding = {
 	left = 0,
 	right = 0,
