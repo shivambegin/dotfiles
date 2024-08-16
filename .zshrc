@@ -99,6 +99,7 @@ alias timer="tomato"
 alias ls='ls --color'
 alias lines='tokei'
 alias vi='nvim'
+alias hx='helix'
 
 
 # Completion styling

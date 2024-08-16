@@ -15,7 +15,7 @@
       "model": "gpt-4"
     }
   },
-  "theme": "Nstlgy Glass Dark",
+  "theme": "Gruvbox Dark Hard",
   "base_keymap": "VSCode",
   "buffer_font_family": "SpaceMono Nerd Font Mono",
   // "buffer_font_family": "Maple Mono",
