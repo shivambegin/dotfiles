@@ -18,7 +18,7 @@ local opacity = 1.00
 --fonts
 
 config.font = wezterm.font_with_fallback({
-	{ family = "Hasklug Nerd Font Mono", weight = "Medium" },
+	-- { family = "Hasklug Nerd Font Mono", weight = "Medium" },
 	-- { family = "FiraCode Nerd Font Mono" },
 	-- { family = "Maple Mono" },
 	-- { family = "Iosevkaterm Nerd Font" },
