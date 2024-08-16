@@ -30,10 +30,11 @@ config.font = wezterm.font_with_fallback({
 })
 
 config.font_size = 18
-config.cell_width = 0.9
+-- config.cell_width = 0.9
 config.line_height = 1.2
 config.term = "wezterm"
-config.underline_position = -5
+config.underline_position = -6
+config.underline_thickness = "250%"
 config.window_close_confirmation = "NeverPrompt"
 config.max_fps = 144
 config.animation_fps = 60
