@@ -21,21 +21,22 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "Monaspace Neon" },
 	-- { family = "Monaspace Argon" },
 	-- { family = "Monaspace Xenon" },
-	{ family = "Monaspace Radon" },
-	{ family = "Monaspace Krypton" },
-	{ family = "Hasklug Nerd Font Mono", weight = "Medium" },
-	{ family = "FiraCode Nerd Font Mono" },
-	{ family = "Maple Mono" },
-	{ family = "Iosevkaterm Nerd Font Mono" },
-	{ family = "FantasqueSansM Nerd Font Mono" },
-	{ family = "Iosevka Nerd Font" },
-	{ family = "SFMono Nerd Font Mono" },
-	{ family = "Victor Mono Nerd Font Mono" },
+	-- { family = "Monaspace Radon" },
+	-- { family = "Monaspace Krypton" },
+	-- { family = "Hasklug Nerd Font Mono", weight = "Medium" },
+	-- { family = "FiraCode Nerd Font Mono" },
+	-- { family = "Maple Mono" },
+	-- { family = "Iosevkaterm Nerd Font Mono" },
+	-- { family = "FantasqueSansM Nerd Font Mono" },
+	-- { family = "Iosevka Nerd Font" },
+	-- { family = "SFMono Nerd Font Mono" },
+	-- { family = "Victor Mono Nerd Font Mono" },
+	-- { family = "Lilex Nerd Font Mono" },
 	{ family = "SpaceMono Nerd Font Mono" },
 	{ family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
 })
-config.harfbuzz_features = { "calt", "liga", "dlig", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08" }
+-- config.harfbuzz_features = { "calt", "liga", "dlig", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08" }
 config.font_size = 18
 -- config.cell_width = 0.9
 -- config.line_height = 1.2
