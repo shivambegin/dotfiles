@@ -36,7 +36,7 @@ config.font = wezterm.font_with_fallback({
 	{ family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
 })
--- config.harfbuzz_features = { "calt", "liga", "dlig", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08" }
+config.harfbuzz_features = { "liga=1" }
 config.font_size = 18
 -- config.cell_width = 0.9
 -- config.line_height = 1.2
