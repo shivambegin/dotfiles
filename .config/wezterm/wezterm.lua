@@ -24,14 +24,16 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "Iosevkaterm Nerd Font Mono" },
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font" },
-	{ family = "SpaceMono Nerd Font Mono" },
-	{ family = "JetBrains Mono" },
+	{ family = "SFMono Nerd Font Mono" },
+	-- { family = "Victor Mono Nerd Font Mono" },
+	-- { family = "SpaceMono Nerd Font Mono" },
+	-- { family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
 })
 
 config.font_size = 18
 -- config.cell_width = 0.9
-config.line_height = 1.2
+-- config.line_height = 1.2
 config.term = "wezterm"
 config.underline_position = -6
 config.underline_thickness = "250%"
