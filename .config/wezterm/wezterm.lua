@@ -10,10 +10,10 @@ config.color_scheme = "Catppuccin Mocha"
 
 config.color_schemes = {
 	["Catppuccin Mocha"] = {
-		background = "#11111B", -- to match neovim ayu theme
+		background = "#141B1E", -- to match neovim ayu theme
 	},
 }
-local opacity = 0.95
+local opacity = 1.00
 
 --fonts
 
@@ -30,7 +30,7 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
 	-- { family = "SFMono Nerd Font Mono" },
-	-- { family = "Victor Mono Nerd Font Mono" },
+	{ family = "Victor Mono Nerd Font Mono" },
 	{ family = "Lilex Nerd Font Mono" },
 	{ family = "SpaceMono Nerd Font Mono" },
 	{ family = "JetBrainsMono Nerd Font Mono" },
