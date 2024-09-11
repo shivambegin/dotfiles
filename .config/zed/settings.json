@@ -24,7 +24,7 @@
   "relative_line_numbers": true,
   "cursor_blink": false,
   "format_on_save": "on",
-  "ui_font_size":20,
+  "ui_font_size": 20,
   "ui_font_family": "Lilex Nerd Font Mono",
   "gutter": {
     "line_numbers": true,
