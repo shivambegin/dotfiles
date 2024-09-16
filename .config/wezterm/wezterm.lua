@@ -4,9 +4,9 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
-config.color_scheme = "Catppuccin Mocha"
+-- config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Rosé Pine (Gogh)"
--- config.color_scheme = "Poimandres"
+config.color_scheme = "Poimandres"
 
 config.color_schemes = {
 	["Catppuccin Mocha"] = {
