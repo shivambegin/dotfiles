@@ -8,6 +8,7 @@ local config = wezterm.config_builder()
 -- config.color_scheme = "Rosé Pine (Gogh)"
 -- config.color_scheme = "Poimandres"
 config.color_scheme = "Gruvbox Material (Gogh)"
+-- config.color_scheme = "lovelace"
 config.color_schemes = {
 	["Catppuccin Mocha"] = {
 		background = "#141B1E", -- to match neovim ayu theme
