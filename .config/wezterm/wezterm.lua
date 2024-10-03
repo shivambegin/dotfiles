@@ -7,7 +7,8 @@ local config = wezterm.config_builder()
 -- config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Rosé Pine (Gogh)"
 -- config.color_scheme = "Poimandres"
-config.color_scheme = "Gruvbox Material (Gogh)"
+-- config.color_scheme = "Gruvbox Material (Gogh)"
+config.color_scheme = "tokyonight"
 -- config.color_scheme = "lovelace"
 config.color_schemes = {
 	["Catppuccin Mocha"] = {
@@ -17,7 +18,7 @@ config.color_schemes = {
 		background = "1d2021",
 	},
 }
-local opacity = 1.00
+local opacity = 0.95
 
 --fonts
 
@@ -43,7 +44,7 @@ config.font = wezterm.font_with_fallback({
 config.harfbuzz_features = { "liga=1" }
 config.font_size = 18
 -- config.cell_width = 0.9
-config.line_height = 0.9
+-- config.line_height = 0.9
 config.term = "wezterm"
 config.underline_position = -6
 config.underline_thickness = "250%"
