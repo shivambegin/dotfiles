@@ -23,7 +23,7 @@ local opacity = 0.95
 --fonts
 
 config.font = wezterm.font_with_fallback({
-	{ family = "Comic Mono" },
+	-- { family = "Comic Mono" },
 	-- { family = "Monaspace Neon" },
 	-- { family = "Monaspace Argon" },
 	-- { family = "Monaspace Xenon" },
@@ -31,7 +31,7 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "Monaspace Krypton" },
 	-- { family = "Hasklug Nerd Font Mono", weight = "Medium" },
 	-- { family = "FiraCode Nerd Font Mono" },
-	-- { family = "Maple Mono" },
+	{ family = "Maple Mono" },
 	-- { family = "Iosevkaterm Nerd Font Mono" },
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
