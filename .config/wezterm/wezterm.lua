@@ -13,9 +13,9 @@ config.window_padding = {
 
 -- config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Rosé Pine (Gogh)"
--- config.color_scheme = "Poimandres"
+config.color_scheme = "Poimandres"
 -- config.color_scheme = "Gruvbox Material (Gogh)"
-config.color_scheme = "tokyonight"
+-- config.color_scheme = "tokyonight"
 -- config.color_scheme = "lovelace"
 config.color_schemes = {
 	["Catppuccin Mocha"] = {
@@ -30,7 +30,7 @@ local opacity = 0.95
 --fonts
 
 config.font = wezterm.font_with_fallback({
-	{ family = "JetBrains Mono" },
+	-- { family = "JetBrains Mono" },
 	-- { family = "Comic Mono" },
 	-- { family = "Monaspace Neon" },
 	-- { family = "Monaspace Argon" },
@@ -44,9 +44,9 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
 	-- { family = "SFMono Nerd Font Mono" },
-	-- { family = "Victor Mono Nerd Font Mono" },
+	{ family = "VictorMono Nerd Font Mono" },
 	-- { family = "Lilex Nerd Font Mono" },
-	-- { family = "SpaceMono Nerd Font Mono" },
+	{ family = "SpaceMono Nerd Font Mono" },
 	{ family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
 })
