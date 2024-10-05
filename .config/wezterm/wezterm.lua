@@ -4,6 +4,13 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
+config.window_padding = {
+	left = 2,
+	right = 2,
+	top = 15,
+	bottom = 0,
+}
+
 -- config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Rosé Pine (Gogh)"
 -- config.color_scheme = "Poimandres"
@@ -23,6 +30,7 @@ local opacity = 0.95
 --fonts
 
 config.font = wezterm.font_with_fallback({
+	{ family = "JetBrains Mono" },
 	-- { family = "Comic Mono" },
 	-- { family = "Monaspace Neon" },
 	-- { family = "Monaspace Argon" },
@@ -31,19 +39,19 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "Monaspace Krypton" },
 	-- { family = "Hasklug Nerd Font Mono", weight = "Medium" },
 	-- { family = "FiraCode Nerd Font Mono" },
-	{ family = "Maple Mono" },
+	-- { family = "Maple Mono" },
 	-- { family = "Iosevkaterm Nerd Font Mono" },
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
 	-- { family = "SFMono Nerd Font Mono" },
 	-- { family = "Victor Mono Nerd Font Mono" },
 	-- { family = "Lilex Nerd Font Mono" },
-	{ family = "SpaceMono Nerd Font Mono" },
+	-- { family = "SpaceMono Nerd Font Mono" },
 	{ family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
 })
 config.harfbuzz_features = { "liga=1" }
-config.font_size = 18
+config.font_size = 15
 -- config.cell_width = 0.9
 -- config.line_height = 0.9
 config.term = "wezterm"
