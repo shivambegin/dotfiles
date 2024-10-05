@@ -44,14 +44,14 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
 	-- { family = "SFMono Nerd Font Mono" },
-	{ family = "VictorMono Nerd Font Mono" },
+	-- { family = "VictorMono Nerd Font Mono" },
 	-- { family = "Lilex Nerd Font Mono" },
-	{ family = "SpaceMono Nerd Font Mono" },
+	-- { family = "SpaceMono Nerd Font Mono" },
 	{ family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
 })
 config.harfbuzz_features = { "liga=1" }
-config.font_size = 15
+config.font_size = 18
 -- config.cell_width = 0.9
 -- config.line_height = 0.9
 config.term = "wezterm"
@@ -69,12 +69,12 @@ config.adjust_window_size_when_changing_font_size = false
 config.window_decorations = "RESIZE"
 config.disable_default_key_bindings = false
 
-config.window_padding = {
-	left = 0,
-	right = 0,
-	top = 0,
-	bottom = 0,
-}
+-- config.window_padding = {
+-- 	left = 0,
+-- 	right = 0,
+-- 	top = 0,
+-- 	bottom = 0,
+-- }
 
 config.inactive_pane_hsb = {
 	saturation = 1.0,
