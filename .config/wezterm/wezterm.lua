@@ -23,6 +23,7 @@ local opacity = 0.95
 --fonts
 
 config.font = wezterm.font_with_fallback({
+	{ family = "Comic Mono" },
 	-- { family = "Monaspace Neon" },
 	-- { family = "Monaspace Argon" },
 	-- { family = "Monaspace Xenon" },
