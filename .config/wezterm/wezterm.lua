@@ -4,12 +4,12 @@ local wezterm = require("wezterm")
 -- This will hold the configuration.
 local config = wezterm.config_builder()
 
-config.window_padding = {
-	left = 2,
-	right = 2,
-	top = 15,
-	bottom = 0,
-}
+-- config.window_padding = {
+-- 	left = 2,
+-- 	right = 2,
+-- 	top = 15,
+-- 	bottom = 0,
+-- }
 
 -- config.color_scheme = "Catppuccin Mocha"
 -- config.color_scheme = "Rosé Pine (Gogh)"
@@ -25,7 +25,7 @@ config.color_schemes = {
 		background = "1d2021",
 	},
 }
-local opacity = 0.95
+-- local opacity = 0.95
 
 --fonts
 
@@ -39,7 +39,7 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "Monaspace Krypton" },
 	-- { family = "Hasklug Nerd Font Mono", weight = "Medium" },
 	-- { family = "FiraCode Nerd Font Mono" },
-	-- { family = "Maple Mono" },
+	{ family = "Maple Mono" },
 	-- { family = "Iosevkaterm Nerd Font Mono" },
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
@@ -69,12 +69,12 @@ config.adjust_window_size_when_changing_font_size = false
 config.window_decorations = "RESIZE"
 config.disable_default_key_bindings = false
 
--- config.window_padding = {
--- 	left = 0,
--- 	right = 0,
--- 	top = 0,
--- 	bottom = 0,
--- }
+config.window_padding = {
+	left = 0,
+	right = 0,
+	top = 0,
+	bottom = 0,
+}
 
 config.inactive_pane_hsb = {
 	saturation = 1.0,
