@@ -30,7 +30,7 @@ config.color_schemes = {
 --fonts
 
 config.font = wezterm.font_with_fallback({
-	{ family =  "MesloLGL Nerd Font Mono" },
+	-- { family = "MesloLGL Nerd Font Mono" },
 	-- { family = "JetBrains Mono" },
 	-- { family = "Comic Mono" },
 	-- { family = "Monaspace Neon" },
@@ -39,14 +39,15 @@ config.font = wezterm.font_with_fallback({
 	-- { family = "Monaspace Radon" },
 	-- { family = "Monaspace Krypton" },
 	-- { family = "Hasklug Nerd Font Mono", weight = "Medium" },
+	-- { family = "Hack Nerd Font Mono" },
 	-- { family = "FiraCode Nerd Font Mono" },
 	-- { family = "Maple Mono" },
 	-- { family = "Iosevkaterm Nerd Font Mono" },
 	-- { family = "FantasqueSansM Nerd Font Mono" },
 	-- { family = "Iosevka Nerd Font Mono" },
-	-- { family = "SFMono Nerd Font Mono" },
+	{ family = "SFMono Nerd Font Mono" },
 	-- { family = "VictorMono Nerd Font Mono" },
-	{ family = "Lilex Nerd Font Mono" },
+	-- { family = "Lilex Nerd Font Mono" },
 	-- { family = "SpaceMono Nerd Font Mono" },
 	{ family = "JetBrainsMono Nerd Font Mono" },
 	{ family = "Symbols Nerd Font Mono" },
