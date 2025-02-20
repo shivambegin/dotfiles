@@ -30,6 +30,7 @@ config.color_schemes = {
 --fonts
 
 config.font = wezterm.font_with_fallback({
+	{ family = "RobotoMono Nerd Font Mono" },
 	{ family = "CommitMono Nerd Font" },
 	-- { family = "MesloLGL Nerd Font Mono" },
 	-- { family = "JetBrains Mono" },
