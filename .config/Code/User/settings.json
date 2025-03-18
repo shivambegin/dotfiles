@@ -34,7 +34,7 @@
       }
     ]
   },
-  "editor.multiculsorModifier": "ctrlCmd",
+  "editor.multiCursorModifier": "ctrlCmd",
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
@@ -48,4 +48,6 @@
 "extensions.experimental.affinity": {
   "asvetliakov.vscode-neovim": 1
 },
+"git.confirmSync": false,
+"files.autoSave": "off",
 }
