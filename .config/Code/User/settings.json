@@ -44,5 +44,8 @@
 "window.customTitleBarVisibility": "auto",
 "workbench.settings.applyToAllProfiles": [
     
-]
+],
+"extensions.experimental.affinity": {
+  "asvetliakov.vscode-neovim": 1
+},
 }
