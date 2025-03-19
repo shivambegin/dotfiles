@@ -68,7 +68,7 @@ config.scrollback_lines = 10000
 -- add window size initial coll and row
 config.initial_cols = 120
 config.initial_rows = 25
-config.window_background_opacity = opacity
+-- config.window_background_opacity = opacity
 config.adjust_window_size_when_changing_font_size = false
 config.window_decorations = "RESIZE"
 config.disable_default_key_bindings = false
