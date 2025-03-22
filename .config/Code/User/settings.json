@@ -19,12 +19,12 @@
   "explorer.confirmDelete": true,
   "explorer.decorations.badges": true,
   "git.decorations.enabled": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "window.titleBarStyle": "native",
   "editor.fontFamily": "SpaceMono Nerd Font",
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 2,
+  "editor.lineHeight": 1.6,
 "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
