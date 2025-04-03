@@ -6,7 +6,7 @@
       // put key-bindings here if you want them to work in normal & visual mode
       // Git
       "space g h d": "editor::ToggleSelectedDiffHunks",
-      "space g h r": "editor::RevertSelectedHunks",
+      "space g h r": "git::Restore",
 
       // Toggle inlay hints
       "space t i": "editor::ToggleInlayHints",
@@ -51,14 +51,14 @@
       "g D": "editor::GoToDefinitionSplit",
       "g i": "editor::GoToImplementation",
       "g I": "editor::GoToImplementationSplit",
-      "g t": "pane::GoToTypeDefinition",
+      "g t": "editor::GoToTypeDefinition",
       "g T": "editor::GoToTypeDefinitionSplit",
       "g r": "editor::FindAllReferences",
       "] d": "editor::GoToDiagnostic",
-      "[ d": "editor::GoToPrevDiagnostic",
+      // "[ d": "editor::GoToPrevDiagnostic",
       // TODO: Go to next/prev error
       "] e": "editor::GoToDiagnostic",
-      "[ e": "editor::GoToPrevDiagnostic",
+      // "[ e": "editor::GoToPrevDiagnostic",
       // Symbol search
       "space o t": "outline::Toggle",
       "s S": "project_symbols::Toggle",
@@ -69,13 +69,13 @@
       // +Git
       // Git prev/next hunk
       "] h": "editor::GoToHunk",
-      "[ h": "editor::GoToPrevHunk",
+      // "[ h": "editor::GoToPrevHunk",
 
       // TODO: git diff is not ready yet, refer https://github.com/zed-industries/zed/issues/8665#issuecomment-2194000497
 
       // + Buffers
       // Switch between buffers
-      "shift-h": "pane::ActivatePrevItem",
+      // "shift-h": "pane::ActivatePrevItem",
       "shift-l": "pane::ActivateNextItem",
       // Close active panel
       "shift-q": "pane::CloseActiveItem",
